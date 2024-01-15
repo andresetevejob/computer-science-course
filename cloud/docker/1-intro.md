@@ -19,3 +19,7 @@ I - Historique
   Cette approche permet d'accroître la flexibilité et la portabilité d’exécution d'une application, laquelle va pouvoir tourner de façon fiable et prévisible sur une grande variété de machines hôtes, que ce soit sur la machine locale, un cloud privé ou public, une machine nue.
 
  ```
+ III - Problèmes solutionner Docker
+ ```
+  
+ ```
