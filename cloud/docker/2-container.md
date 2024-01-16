@@ -21,3 +21,40 @@ Parfois nous souhaitons faire tourner notre conteneur en arrière plan
 ```
   docker run -d --name mon_conteneur image:tag
 ```
+
+* démarrer un conteneur en exposant le port au système hôte
+
+```
+  docker run --name containerName -p 8087:8087 image_name
+```
+
+* pouvoir tous les conteneurs qui sont demarrés sur la machine
+```
+  docker ps
+```
+* afficher les logs d'un conteneur en cours 
+```
+  docker logs container_name -f
+```
+
+* se connecter à un conteneur
+```
+  docker exec -it container_name/or_id /bin/sh
+```
+
+* arrêter un conteneur
+```
+  docker stop container_name/or_id
+
+```
+
+* copier un fichier depuis ou vers un conteneur docker
+```
+
+```
+
+* voir les variables d'environnement sur un conteneur
+```
+ docker exec -ti container_name_or_id env
+ 
+```
